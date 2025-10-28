@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import { Author, BlogPost } from '@/types/blog'
+import { Author, BlogPost } from '@/types'
 
 
 export function getAuthors(): Author[] {
@@ -16,7 +16,7 @@ export function getAuthors(): Author[] {
       id: data.id,
       name: data.name,
       bio: content,
-      avatar: data.avatar,      
+      avatar: data.avatar || null,      
     }
   }) 
 }

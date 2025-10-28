@@ -14,7 +14,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "ID", name: "id", widget: "uuid", hint: "Auto-generated unique identifier" }
+      - { label: "ID", name: "id", widget: "uuid" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Slug", name: "slug", widget: "string" }
@@ -35,7 +35,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { name: "id", label: "ID", widget: "uuid", hint: "Auto-generated unique identifier" }
+      - { name: "id", label: "ID", widget: "uuid" }
       - { name: "name", label: "Name", widget: "string" }
       - { name: "bio", label: "Bio", widget: "text", required: false }
       - { name: "avatar", label: "Avatar", widget: "image", required: false }
@@ -46,7 +46,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { name: "id", label: "ID", widget: "uuid", hint: "Auto-generated unique identifier" }
+      - { name: "id", label: "ID", widget: "uuid" }
       - { name: "title", label: "Title", widget: "string" }
       - { name: "date", label: "Date", widget: "datetime" }
       - {
