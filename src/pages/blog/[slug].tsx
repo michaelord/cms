@@ -12,6 +12,9 @@ interface BlogPostProps {
 export default function BlogPost({ post }: BlogPostProps) {
   return (
     <article>
+
+    {JSON.stringify(post)}
+
       <h1>{post.title}</h1>
       <p>{post.date}</p>
       <ReactMarkdown>{post.body}</ReactMarkdown>

@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "../",
+      "name": "cms",
+    }
+  ],
+  "extensions": {
+    "recommendations": [],
+  },
+  "settings": {
+    "git.ignoreLimitWarning": true,
+    "todo-tree.filtering.useBuiltInExcludes": "none",
+    "files.exclude": {
+      "**/setup-tests.ts": true,
+      "**/plopfile.*": true,
+      "**/storybook-static/": true,
+      "**/coverage/": true,
+      "**/static/": true,
+      "**/dist/": true,
+      "**/node_modules/": true,
+      "duotone/": true,
+      "pictograms/": true,
+      "mocks/": true,
+      "report/": true,
+    },
+  },
+}
